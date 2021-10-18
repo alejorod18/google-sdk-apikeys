@@ -1,4 +1,4 @@
-FROM google/cloud-sdk:330.0.0-alpine
+FROM google/cloud-sdk:360.0.0-alpine
 
 RUN yes | gcloud components update alpha
 RUN yes | gcloud components update
